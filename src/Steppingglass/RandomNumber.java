@@ -12,7 +12,7 @@ public class RandomNumber {
             int random = (int) ((Math.random() * 100) + 1);
             Scanner sc = new Scanner(System.in);
             System.out.println();
-            System.out.print("1 , 2 , 3 , 4 중 원하는 칸 입력 : ");
+            System.out.print("1 , 2 , 3 , 4 중 선택(게임종료 5번) : ");
             int num = sc.nextInt();
 
             switch (num) {
